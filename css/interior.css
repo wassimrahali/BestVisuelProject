@@ -1,0 +1,170 @@
+/*-------------------------------------------------------------------------------
+  1. Global
+-------------------------------------------------------------------------------*/
+
+
+::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #c5a47e;
+}
+
+::selection{
+  background-color:#c5a47e;
+  color:#fff;
+}
+
+-webkit-::selection{
+    background-color:#c5a47e;
+    color:#fff;
+}
+
+::-moz-selection{
+    background-color:#c5a47e;
+    color:#fff;
+}
+
+
+
+/* Typography */
+
+
+
+a {
+  color:#c5a47e;
+  -webkit-transition: color .3s ease-out;
+       -o-transition: color .3s ease-out;
+          transition: color .3s ease-out;
+}
+
+a:hover,
+a:focus {
+  color:#c5a47e;
+  outline: none;
+}
+
+
+a:focus{
+  text-decoration: none;
+}
+
+
+/* Fields */
+
+
+
+input[type='text']:focus,
+input[type='address']:focus,
+input[type='url']:focus,
+input[type='password']:focus,
+input[type='email']:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+textarea:focus{
+  border-color: #c5a47e;
+}
+
+.mc-label .fa{
+  color:#c5a47e;
+}
+
+input.error{
+  border-color: #c5a47e;
+}
+
+
+/*  Buttons */
+
+
+
+.btn-brown{
+  background-color:#c5a47e;
+  box-shadow:0 10px 20px rgba(197,164,126,0.3);
+}
+
+
+.btn-brown:hover,
+.btn-brown:focus{
+  background-color:#292929;
+  box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.btn.btn-trans-2:hover,
+.btn.btn-trans-2:focus{
+  background-color:#292929;
+  box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+
+/* Loader */
+
+
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #c5a47e;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+
+
+/* Nav Desctop */
+
+
+
+.nav-desctop-list li li a:after,
+.nav-desctop-list li .active a:after{
+  background-color: #c5a47e;
+}
+
+
+
+/* Nav Mobile */
+
+
+.nav-mobile-list li a:hover,
+.nav-mobile-list li .active > a,
+.nav-mobile-list .current > a{
+  color: #c5a47e;
+}
+
+
+.nav-mobile-list > .active > a,
+.nav-mobile-list > .active > a:hover{
+  background-color: #292929;
+  color: #fff;
+}
+
+
+
+/* Navbar Affix */
+
+
+
+.navbar.affix .social-list li a:hover{
+  text-decoration: none;
+  color:#c5a47e;
+}
+
+.navbar.affix .navbar-toggle .icon-bar{
+  background-color: #292929;
+}
+
+
+/* Modal */
+
+.modal-title{
+  color:#c5a47e;
+}
