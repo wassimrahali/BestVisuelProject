@@ -1,5 +1,5 @@
 # BestVisuelProject 
-# This Some **screenshot** from of seasanol work 
+# These are some screenshots from my seasonal work.
  
 ![image](https://github.com/wassimrahali/BestVisuelProject/assets/140222867/31024789-15c0-4181-80a4-61459301896b)
 ![image](https://github.com/wassimrahali/BestVisuelProject/assets/140222867/7b538e2b-fd3c-4507-a810-36190b2a80c3)
